@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomeScreen from './screens/homeScreen';
+import HomeScreen from './screens/homescreen.jsx';
 import LoginScreen from './screens/loginScreen.jsx';
 import RegisterScreen from './screens/registerScreen.jsx';
 import store from './store.js';
