@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "node back-end/index.js",
     "server": "node --watch --env-file=.env back-end/index",
     "client": "npm run dev --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
